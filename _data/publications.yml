@@ -43,6 +43,7 @@
   description: "One-Shot Audio-driven 3D talking head generation with enhanced 3D consistency using NeRF and generative knowledge from single image input."
   project_page: "https://rlgnswk.github.io/NeRFFaceSpeech_ProjectPage/"
   image: nerffacespeech.png
+  arxiv: "2405.05749"
   authors:
     - Gihoon
     - Kwanggyoon
