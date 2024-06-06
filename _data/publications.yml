@@ -1,3 +1,17 @@
+- id: maafa
+  title: "Mesh Agnostic Audio-Driven 3D Facial Animation"
+  venue: Under review
+  description: "An end-to-end method for animating a 3D face mesh with arbitrary shape and triangulation from a given speech audio."
+  image: localpatch.png
+  authors:
+    - Kwanggyoon
+    - Sihun
+    - Hyeonho
+    - Inyup
+    - Junyong
+  co: 2
+  etc: "(*equal contribution)"
+  
 - id: localpatch
   title: "Deep Learning-Based Facial Retargeting Using Local Patches"
   venue: Under review
