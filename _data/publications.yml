@@ -1,4 +1,15 @@
 - id: maafa
+  title: "LAFA: Leveraging Local Segment for Mesh-agnostic Audio-driven 3D Facial Animation"
+  venue: Under review
+  description: "Leveraging local segment for animating a 3D face mesh with arbitrary shape and triangulation from a given speech audio."
+  image: lafa.png
+  authors:
+    - Sihun
+    - Kwanggyoon
+    - Junyong
+  etc: "(*equal contribution)"
+  
+- id: maafa
   title: "Mesh Agnostic Audio-Driven 3D Facial Animation"
   venue: Under review
   description: "An end-to-end method for animating a 3D face mesh with arbitrary shape and triangulation from a given speech audio."
