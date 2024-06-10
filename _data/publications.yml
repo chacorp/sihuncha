@@ -3,7 +3,6 @@
   venue: Under review
   description: "Leveraging local segment for animating a 3D face mesh with arbitrary shape and triangulation from a given speech audio."
   image: lafa.png
-  paper: "https://drive.google.com/file/d/16Ehut3RyhFt_YAh_mIIecoxRZNBbJ_HL/view?usp=drive_link"
   authors:
     - Sihun
     - Kwanggyoon
