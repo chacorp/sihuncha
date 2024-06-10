@@ -3,6 +3,7 @@
   venue: Under review
   description: "Leveraging local segment for animating a 3D face mesh with arbitrary shape and triangulation from a given speech audio."
   image: lafa.png
+  paper: "https://drive.google.com/file/d/16Ehut3RyhFt_YAh_mIIecoxRZNBbJ_HL/view?usp=drive_link"
   authors:
     - Sihun
     - Kwanggyoon
@@ -13,6 +14,7 @@
   venue: Under review
   description: "An end-to-end method for animating a 3D face mesh with arbitrary shape and triangulation from a given speech audio."
   image: maafa.png
+  paper: "https://drive.google.com/file/d/1APW-u0quVrkUX9Fh0kHhjZGvjoVXTqth/view?usp=drive_link"
   authors:
     - Kwanggyoon
     - Sihun
