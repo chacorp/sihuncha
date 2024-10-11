@@ -3,13 +3,20 @@
       Research Assistant.
   topic: Worked on topics of texture generation, 3D facial animation.
   dates: "Jan 2021 - Present"
-  location: DaeJeon, Korea
+  location: DaeJeon, South Korea
 
 - company: Mandatory Military Service
   description: >- 
       ROK Army sergeant, honorable discharge
   dates: "June 2015 - Mar 2017"
-  location: Uljin, Korea
+  location: Uljin, South Korea
+
+- company: Flawless AI
+  description: >- 
+      Research Scientist Intern
+  topic: Audio to Mouth Synthesis.
+  dates: "Sep 2024 - Present"
+  location: Santa Monica, US
 
 # - company: Google
 #   description: Research Scientist
