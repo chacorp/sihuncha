@@ -28,6 +28,7 @@
   venue: Computer Graphics Forum (CGF) (accepted)
   description: "Retargeting facial expression from a source human performance video to a target stylized 3D character using local patches."
   image: localpatch.png
+  paper: "https://onlinelibrary.wiley.com/doi/10.1111/cgf.15263
   authors:
     - Inyup
     - Yeonsoo
@@ -74,7 +75,7 @@
   venue: Eurographics 2023
   journal: Computer Graphics Forum (CGF)
   description: "Generating 3D human texture from a single image using sampling and refinement process by utilizing geometry information."
-  paper: "https://diglib.eg.org/handle/10.1111/cgf14769"
+  paper: "https://onlinelibrary.wiley.com/doi/10.1111/cgf.14769"
   project_page: "https://chacorp.github.io/sample-refine/"
   github: "chacorp/SampleRefine"
   arxiv: "2305.00936"
