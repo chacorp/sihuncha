@@ -25,7 +25,7 @@
   
 - id: localpatch
   title: "Deep Learning-Based Facial Retargeting Using Local Patches"
-  venue: Computer Graphics Forum (CGF) (accepted)
+  venue: Computer Graphics Forum (CGF)
   description: "Retargeting facial expression from a source human performance video to a target stylized 3D character using local patches."
   image: localpatch.png
   paper: "https://onlinelibrary.wiley.com/doi/10.1111/cgf.15263"
