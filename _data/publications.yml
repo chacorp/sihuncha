@@ -30,8 +30,8 @@
   image: localpatch.png
   paper: "https://onlinelibrary.wiley.com/doi/10.1111/cgf.15263"
   authors:
-    - Inyup
     - Yeonsoo
+    - Inyup
     - Sihun
     - Seonghyeon
     - Sunjin
