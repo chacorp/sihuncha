@@ -22,6 +22,17 @@
     - Junyong
   co: 2
   etc: "(*equal contribution)"
+
+- id: nfs
+  title: "Neural Face Skinning for Mesh-agnostic Facial Expression Cloning"
+  venue: Under review
+  description: "A method that enables direct retargeting between two facial meshes with different shapes and mesh structures."
+  image: nfs.png
+  authors:
+    - Sihun
+    - Serin
+    - Kwanggyoon
+    - Junyong
   
 - id: localpatch
   title: "Deep Learning-Based Facial Retargeting Using Local Patches"
