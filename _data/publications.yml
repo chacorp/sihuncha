@@ -71,6 +71,7 @@
   description: "Creating an animatable stylized 3D face mesh with one example pair."
   project_page: "https://kwanyun.github.io/lego/"
   github: "kwanyun/LeGO_code"
+  paper: "https://openaccess.thecvf.com/content/CVPR2024/html/Yoon_LeGO_Leveraging_a_Surface_Deformation_Network_for_Animatable_Stylized_Face_CVPR_2024_paper.html"
   arxiv: "2403.15227"
   image: lego.png
   authors:
