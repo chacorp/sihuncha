@@ -27,6 +27,8 @@
   title: "Neural Face Skinning for Mesh-agnostic Facial Expression Cloning"
   venue: Under review
   description: "A method that enables direct retargeting between two facial meshes with different shapes and mesh structures."
+  project_page: "https://chacorp.github.io/nfs-page/"
+  github: "chacorp/NFS"
   image: nfs.png
   authors:
     - Sihun
