@@ -100,11 +100,14 @@ layout: null
         {% for job in site.data.experience %}
         <div class="columns">
           <div class="column is-three-fifths">
+            {% if job.website %}
+            <a href="{{ job.website }}"><b>{{ job.company }}</b></a>
+            {% else %}
             <b>{{ job.company }}</b>
-            <br />
-            {{ job.description }}
-            <br />
-            {{ job.topic }}
+            {% endif %}
+            
+            <br />{{ job.description }}
+            <br />{{ job.topic }}
           </div>
           <div class="column is-two-fifths has-text-right">
             {{ job.dates }}
