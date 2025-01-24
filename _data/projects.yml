@@ -3,6 +3,7 @@
   date: July. 2024 ~ Ongoing
   role: Researcher
   image: iitp.jpg
+  url: https://vml.kaist.ac.kr/main/projects/individual/46
   description: "IITP starlab project"
 
 - name: Skeleton, Mesh, Morphology-agnostic 3D Character Motion Retargeting Using a Generative Model
@@ -10,6 +11,7 @@
   date: May. 2024 ~ Ongoing
   role: Researcher
   image: nrf.jpg
+  url: https://vml.kaist.ac.kr/main/projects/individual/49
   description: "Development of 3D motion retargeting techniques that can handle characters having arbitrary skeleton structures as well as mesh connectivity."
   
 - name: Development of Universal Fashion Creation Platform Technology for Avatar Personality Expression
@@ -17,6 +19,7 @@
   date: Jun. 2023 ~ Ongoing
   role: Project Manager
   image: kocca.jpg
+  url: https://vml.kaist.ac.kr/main/projects/individual/43
   description: "Development of universal fashion creation technology and creative platform that enables general users self-expression through intuitive avatar creation"
 
 - name: Development of Core SW Technology for Realistic 3D Facial Animation Generation
@@ -24,6 +27,7 @@
   date: Aug. 2022 ~ Jan. 2024
   role: Software Developer
   image: 
+  url: https://vml.kaist.ac.kr/main/projects/individual/45
   description: "Developing the AI model for 3D facial animation and research on motion retargeting techniques between human and character"
 
 - name: 3D Cinemagraph for AR Contents Creation
@@ -31,6 +35,7 @@
   date: Jun. 2021 ~ Dec. 2022
   role: Software Developer
   image: iitp.jpg
+  url: https://vml.kaist.ac.kr/main/projects/individual/41
   description: "Development of user-friendly content production technology that enables general users to easily transform a single image into immersive AR content where background and characters within the image move and interact with real-world objects."
 
 - name: Development of self-evolving AI Creation Platform
@@ -38,6 +43,7 @@
   date: Jun. 2021 ~ Dec. 2022
   role: Software Developer
   image: kocca.jpg
+  url: https://vml.kaist.ac.kr/main/projects/individual/40
   description: "Development of user-friendly animation creation platform through analysis of user input keywords and images for single creators"
 
 
