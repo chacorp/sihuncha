@@ -1,3 +1,17 @@
+- name: Generating Hyper-Realistic to Extremely-stylized Face Avatar with Varied Speech Speed and Context-based Emotional Expression
+  support: IITP
+  date: July. 2024 ~ Ongoing
+  role: Researcher
+  image: iitp.jpg
+  description: "IITP starlab project"
+
+- name: Skeleton, Mesh, Morphology-agnostic 3D Character Motion Retargeting Using a Generative Model
+  support: NRF
+  date: May. 2024 ~ Ongoing
+  role: Researcher
+  image: 
+  description: "Development of 3D motion retargeting techniques that can handle characters having arbitrary skeleton structures as well as mesh connectivity."
+  
 - name: Development of Universal Fashion Creation Platform Technology for Avatar Personality Expression
   support: KOCCA
   date: Jun. 2023 ~ Ongoing
@@ -9,6 +23,7 @@
   support: Metaverse Entertainment
   date: Aug. 2022 ~ Jan. 2024
   role: Software Developer
+  image: 
   description: "Developing the AI model for 3D facial animation and research on motion retargeting techniques between human and character"
 
 - name: 3D Cinemagraph for AR Contents Creation
