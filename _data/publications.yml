@@ -54,7 +54,7 @@
   
 - id: nerffacespeech
   title: "NeRFFaceSpeech: One-shot Audio-diven 3D Talking Head Synthesis via Generative Prior"
-  venue: CVPRW 2024
+  venue: CVPR Workshop 2024
   description: "One-Shot Audio-driven 3D talking head generation with enhanced 3D consistency using NeRF and generative knowledge from single image input."
   project_page: "https://rlgnswk.github.io/NeRFFaceSpeech_ProjectPage/"
   image: nerffacespeech.png
