@@ -22,10 +22,11 @@
     - Junyong
   co: 2
   etc: "(*equal contribution)"
-
+  
 - id: nfs
   title: "Neural Face Skinning for Mesh-agnostic Facial Expression Cloning"
-  venue: Under review
+  venue: Eurographics 2025
+  journal: Computer Graphics Forum (CGF)
   description: "A method that enables direct retargeting between two facial meshes with different shapes and mesh structures."
   project_page: "https://chacorp.github.io/nfs-page/"
   github: "chacorp/NFS"
@@ -35,6 +36,37 @@
     - Serin
     - Kwanggyoon
     - Junyong
+
+- id: salad
+  title: "SALAD: Skeleton-aware Latent Diffusion for Text-driven Motion Generation and Editing"
+  venue: CVPR 2025
+  description: "Skeleton-Aware LAtent Diffusion (SALAD) model that explicitly captures the intricate inter-relationships between joints, frames, and words."
+  project_page: "https://seokhyeonhong.github.io/projects/salad/"
+  github: ""
+  authors:
+    - Seokhyeon
+    - Chaelin
+    - Serin
+    - Junghyun Nam
+    - Sihun Cha
+    - Junyong
+
+- id: asmr
+  title: "ASMR: Adaptive Skeleton-Mesh Rigging and Skinning via 2D Generative Prior"
+  venue: Eurographics 2025
+  journal: Computer Graphics Forum (CGF)
+  description: "Rigging and skinning 3D character meshes by leveraging cross-attention modules and 2D generative priors for robust generalization across diverse skeletal and mesh configurations."
+  project_page: ""
+  github: ""
+  image: asmr.png
+  authors:
+    - Seokhyeon
+    - Soojin
+    - Chaelin
+    - Sihun
+    - Junyong
+  co: 2
+  etc: "(*equal contribution)"
   
 - id: localpatch
   title: "Deep Learning-Based Facial Retargeting Using Local Patches"
