@@ -64,6 +64,17 @@ Serin:
   first_name: Serin
   last_name: Yoon
   website: https://serin-yoon.github.io/
+SeokHyeon:
+  first_name: SeokHyeon
+  last_name: Hong
+  website: https://seokhyeonhong.github.io/
+Soojin:
+  first_name: Soojin
+  last_name: Choi
+Chaelin:
+  first_name: Chaelin
+  last_name: Kim
+  website: https://vml.kaist.ac.kr/main/people/person/128
   
 YoungJun:
   first_name: YoungJun
