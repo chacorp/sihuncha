@@ -29,6 +29,7 @@
   description: "Skeleton-Aware LAtent Diffusion (SALAD) model that explicitly captures the intricate inter-relationships between joints, frames, and words."
   project_page: "https://seokhyeonhong.github.io/projects/salad/"
   github: ""
+  image: salad.png
   authors:
     - Seokhyeon
     - Chaelin
