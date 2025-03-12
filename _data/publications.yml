@@ -24,7 +24,7 @@
   etc: "(*equal contribution)"
 
 - id: salad
-  title: "SALAD: Skeleton-aware Latent Diffusion for Text-driven Motion Generation and Editing"
+  title: "SALAD: Skeleton-Aware Latent Diffusion for Text-driven Motion Generation and Editing"
   venue: CVPR 2025
   description: "Skeleton-Aware LAtent Diffusion (SALAD) model that explicitly captures the intricate inter-relationships between joints, frames, and words."
   project_page: "https://seokhyeonhong.github.io/projects/salad/"
