@@ -22,20 +22,6 @@
     - Junyong
   co: 2
   etc: "(*equal contribution)"
-  
-- id: nfs
-  title: "Neural Face Skinning for Mesh-agnostic Facial Expression Cloning"
-  venue: Eurographics 2025
-  journal: Computer Graphics Forum (CGF)
-  description: "A method that enables direct retargeting between two facial meshes with different shapes and mesh structures."
-  project_page: "https://chacorp.github.io/nfs-page/"
-  github: "chacorp/NFS"
-  image: nfs.png
-  authors:
-    - Sihun
-    - Serin
-    - Kwanggyoon
-    - Junyong
 
 - id: salad
   title: "SALAD: Skeleton-aware Latent Diffusion for Text-driven Motion Generation and Editing"
@@ -49,6 +35,20 @@
     - Serin
     - Junghyun
     - Sihun
+    - Junyong
+    
+- id: nfs
+  title: "Neural Face Skinning for Mesh-agnostic Facial Expression Cloning"
+  venue: Eurographics 2025
+  journal: Computer Graphics Forum (CGF)
+  description: "A method that enables direct retargeting between two facial meshes with different shapes and mesh structures."
+  project_page: "https://chacorp.github.io/nfs-page/"
+  github: "chacorp/NFS"
+  image: nfs.png
+  authors:
+    - Sihun
+    - Serin
+    - Kwanggyoon
     - Junyong
 
 - id: asmr
