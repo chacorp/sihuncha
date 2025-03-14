@@ -38,22 +38,22 @@
     - Sihun
     - Junyong
 
-- id: asmr
-  title: "ASMR: Adaptive Skeleton-Mesh Rigging and Skinning via 2D Generative Prior"
-  venue: Eurographics 2025
-  journal: Computer Graphics Forum (CGF)
-  description: "Rigging and skinning 3D character meshes by leveraging cross-attention modules and 2D generative priors for robust generalization across diverse skeletal and mesh configurations."
-  project_page: ""
-  github: ""
-  image: asmr.png
-  authors:
-    - Seokhyeon
-    - Soojin
-    - Chaelin
-    - Sihun
-    - Junyong
-  co: 2
-  etc: "(*equal contribution)"
+# - id: asmr
+#   title: "ASMR: Adaptive Skeleton-Mesh Rigging and Skinning via 2D Generative Prior"
+#   venue: Eurographics 2025
+#   journal: Computer Graphics Forum (CGF)
+#   description: "Rigging and skinning 3D character meshes by leveraging cross-attention modules and 2D generative priors for robust generalization across diverse skeletal and mesh configurations."
+#   project_page: ""
+#   github: ""
+#   image: asmr.png
+#   authors:
+#     - Seokhyeon
+#     - Soojin
+#     - Chaelin
+#     - Sihun
+#     - Junyong
+#   co: 2
+#   etc: "(*equal contribution)"
 
 - id: nfs
   title: "Neural Face Skinning for Mesh-agnostic Facial Expression Cloning"
