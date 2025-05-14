@@ -63,6 +63,7 @@
   project_page: "https://chacorp.github.io/nfs-page/"
   github: "chacorp/NFS"
   image: nfs.png
+  paper: "https://vml.kaist.ac.kr/assets/Contents/Publications/International/2025SihunCha_EG/2025SihunCha_EG.pdf"
   authors:
     - Sihun
     - Serin
