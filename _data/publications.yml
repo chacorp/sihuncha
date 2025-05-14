@@ -28,7 +28,8 @@
   venue: CVPR 2025
   description: "Skeleton-Aware LAtent Diffusion (SALAD) model that explicitly captures the intricate inter-relationships between joints, frames, and words."
   project_page: "https://seokhyeonhong.github.io/projects/salad/"
-  github: ""
+  github: "seokhyeonhong/salad"
+  arxiv: "2503.13836"
   image: salad.png
   authors:
     - Seokhyeon
