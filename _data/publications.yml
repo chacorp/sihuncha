@@ -1,0 +1,199 @@
+# - id: lafa
+#   title: "LAFA: Leveraging Local Segment for Mesh-agnostic Audio-driven 3D Facial Animation"
+#   venue: Under review
+#   description: "Leveraging local segment for animating a 3D face mesh with arbitrary shape and triangulation from a given speech audio."
+#   image: lafa.png
+#   authors:
+#     - Sihun
+#     - Kwanggyoon
+#     - Junyong
+  
+- id: maafa
+  title: "Mesh Agnostic Audio-Driven 3D Facial Animation"
+  venue: Under review
+  description: "An end-to-end method for animating a 3D face mesh with arbitrary shape and triangulation from a given speech audio."
+  image: maafa.png
+  paper: "https://drive.google.com/file/d/1APW-u0quVrkUX9Fh0kHhjZGvjoVXTqth/view?usp=drive_link"
+  authors:
+    - Kwanggyoon
+    - Sihun
+    - Hyeonho
+    - Inyup
+    - Junyong
+  co: 2
+  etc: "(*equal contribution)"
+
+- id: salad
+  title: "SALAD: Skeleton-Aware Latent Diffusion for Text-driven Motion Generation and Editing"
+  venue: CVPR 2025
+  description: "Skeleton-Aware LAtent Diffusion (SALAD) model that explicitly captures the intricate inter-relationships between joints, frames, and words."
+  project_page: "https://seokhyeonhong.github.io/projects/salad/"
+  github: "seokhyeonhong/salad"
+  arxiv: "2503.13836"
+  image: salad.png
+  authors:
+    - Seokhyeon
+    - Chaelin
+    - Serin
+    - Junghyun
+    - Sihun
+    - Junyong
+
+# - id: asmr
+#   title: "ASMR: Adaptive Skeleton-Mesh Rigging and Skinning via 2D Generative Prior"
+#   venue: Eurographics 2025
+#   journal: Computer Graphics Forum (CGF)
+#   description: "Rigging and skinning 3D character meshes by leveraging cross-attention modules and 2D generative priors for robust generalization across diverse skeletal and mesh configurations."
+#   project_page: ""
+#   github: ""
+#   image: asmr.png
+#   authors:
+#     - Seokhyeon
+#     - Soojin
+#     - Chaelin
+#     - Sihun
+#     - Junyong
+#   co: 2
+#   etc: "(*equal contribution)"
+
+- id: nfs
+  title: "Neural Face Skinning for Mesh-agnostic Facial Expression Cloning"
+  venue: Eurographics 2025
+  journal: Computer Graphics Forum (CGF)
+  description: "A method that enables direct retargeting between two facial meshes with different shapes and mesh structures."
+  project_page: "https://chacorp.github.io/nfs-page/"
+  github: "chacorp/NFS"
+  image: nfs.png
+  paper: "https://vml.kaist.ac.kr/assets/Contents/Publications/International/2025SihunCha_EG/2025SihunCha_EG.pdf"
+  arxiv: "2505.22416"
+  authors:
+    - Sihun
+    - Serin
+    - Kwanggyoon
+    - Junyong
+    
+- id: localpatch
+  title: "Deep Learning-Based Facial Retargeting Using Local Patches"
+  venue: Computer Graphics Forum (CGF)
+  description: "Retargeting facial expression from a source human performance video to a target stylized 3D character using local patches."
+  image: localpatch.png
+  paper: "https://onlinelibrary.wiley.com/doi/10.1111/cgf.15263"
+  authors:
+    - Yeonsoo
+    - Inyup
+    - Sihun
+    - Seonghyeon
+    - Sunjin
+    - Junyong
+  co: 2
+  etc: "(*equal contribution)"
+  
+- id: nerffacespeech
+  title: "NeRFFaceSpeech: One-shot Audio-diven 3D Talking Head Synthesis via Generative Prior"
+  venue: CVPR Workshop 2024
+  description: "One-Shot Audio-driven 3D talking head generation with enhanced 3D consistency using NeRF and generative knowledge from single image input."
+  project_page: "https://rlgnswk.github.io/NeRFFaceSpeech_ProjectPage/"
+  image: nerffacespeech.png
+  github: "rlgnswk/NeRFFaceSpeech_Code"
+  arxiv: "2405.05749"
+  authors:
+    - Gihoon
+    - Kwanggyoon
+    - Sihun
+    - Junyong
+    
+- id: lego
+  title: "LeGO: Leveraging a Surface Deformation Network for Animatable Stylized Face Generation with One Example"
+  venue: CVPR 2024
+  description: "Creating an animatable stylized 3D face mesh with one example pair."
+  project_page: "https://kwanyun.github.io/lego/"
+  github: "kwanyun/LeGO_code"
+  paper: "https://openaccess.thecvf.com/content/CVPR2024/html/Yoon_LeGO_Leveraging_a_Surface_Deformation_Network_for_Animatable_Stylized_Face_CVPR_2024_paper.html"
+  arxiv: "2403.15227"
+  image: lego.png
+  authors:
+    - Soyeon
+    - Kwan
+    - Kwanggyoon
+    - Sihun
+    - Jungeun
+    - Junyong
+  co: 2
+  etc: "(*equal contribution)"
+    
+- id: Sample-Refine
+  title: "Generating Texture for 3D Human Avatar from a Single Image using Sampling and Refinement Networks"
+  venue: Eurographics 2023
+  journal: Computer Graphics Forum (CGF)
+  description: "Generating 3D human texture from a single image using sampling and refinement process by utilizing geometry information."
+  paper: "https://onlinelibrary.wiley.com/doi/10.1111/cgf.14769"
+  project_page: "https://chacorp.github.io/sample-refine/"
+  github: "chacorp/SampleRefine"
+  arxiv: "2305.00936"
+  image: sample-refine.png
+  authors:
+    - Sihun
+    - Kwanggyoon
+    - Amirsaman
+    - Junyong
+
+- id: Ref2Sketch
+  title: "Reference Based Sketch Extraction via Attention Mechanism"
+  venue: SIGGRAPH Asia 2022
+  journal: ACM Transactions on Graphics (TOG)
+  description: "Extracting a sketch from an image in the style of a given reference sketch while preserving the visual content of the image."
+  paper: "https://dl.acm.org/doi/abs/10.1145/3550454.3555504"
+  github: ref2sketch/ref2sketch
+  image: ref2sketch.jpg
+  authors:
+    - Amirsaman
+    - Chang Wook
+    - Cholmin
+    - Sihun
+    - Junyong
+
+- id: Samp-Ref
+  title: "Generating 3D Human Texture from a Single Image with Sampling and Refinement"
+  venue: SIGGRAPH 2022 Posters
+  description: "A method for generating 3D human texture from a single image based on SMPL model, using sampling and refinement process."
+  paper: "https://dl.acm.org/doi/abs/10.1145/3532719.3543204"
+  github: "chacorp/SampleRefine"
+  image: samp-ref.jpg
+  authors:
+    - Sihun
+    - Kwanggyoon
+    - Amirsaman
+    - Junyong
+
+- id: Anyway
+  title: "“Anyway,”: Two-player Defense Game via Voice Conversation"
+  venue: CHI Play 2021
+  description: "A two-player conversational defense game that uses voice conversation as an input."
+  paper: "https://dl.acm.org/doi/abs/10.1145/3450337.3483509"
+  image: anyway.png
+  authors:
+    - Minki
+    - YoungJun
+    - Sihun
+  co: 3
+  etc: "(*equal contribution)"
+
+# - id: nerfies
+#   title: "Nerfies: Deformable Neural Radiance Fields"
+#   venue: ICCV, 2021
+#   description: "Learning deformation fields with a NeRF let's you reconstruct non-rigid scenes with high fidelity."
+#   project_page: "https://nerfies.github.io"
+#   github: google/nerfies
+#   arxiv: 2011.12948
+#   image: nerfies_before.jpg
+#   image_mouseover: nerfies_after.mp4
+#   authors:
+#     - keunhong
+#     - utsinh
+#     - barron
+#     - sofien
+#     - dgo
+#     - smseitz
+#     - rmbrualla
+#   awards:
+#     - "Oral Presentation"

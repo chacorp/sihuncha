@@ -1,0 +1,139 @@
+---
+---
+
+@import "base";
+
+.title {
+    font-family: 'Google Sans';
+    font-weight: 700;
+}
+
+.portrait {
+    border-radius: 2%;
+    overflow: hidden;
+
+    img { transform: scale(0.8); }
+}
+
+.footer .footer-links a {
+    font-size: 16px;
+    color: #000;
+}
+
+.pronunciation {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.publication-block {
+    .publication-title {
+        width: fit-content;
+        margin: 0 !important;
+        font-weight: 700;
+        font-size: 100% !important;
+
+        a { color: #000 }
+    }
+
+    .publication-venue {
+        color: #666;
+        font-size: 80%;
+        width: fit-content;
+        margin-top: 0;
+    }
+
+    .publication-venue-emph {
+        font-style: normal;
+        font-size: 80%;
+        font-weight: 500;
+        color: firebrick;
+        padding-left: 0.15em;
+    }
+
+    .publication-awards {
+        color: firebrick;
+        width: fit-content;
+        font-weight: bolder;
+    }
+
+    .publication-authors {
+        font-size: 90% !important;
+        .author-me {
+            color: #000;
+            font-weight: 600;
+        }
+
+        a {
+            color: #000 !important;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .publication-image {
+        border-radius: 2%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-size: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .publication-mousecell {
+        position: relative;
+        font-size: 0;
+    }
+
+    .publication-mousecell {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        overflow: hidden;
+
+        video {
+            display: none;
+        }
+    }
+
+    .publication-description {
+        color: #666;
+        margin: 0.15em 0;
+        font-size: 80% !important;
+    }
+
+    .publication-links {
+        margin: 0 !important;
+        margin-top: 0.15em !important;
+    }
+    
+    .project-title {
+        width: fit-content;
+        margin: 0 !important;
+        font-weight: 700;
+        font-size: 100% !important;
+
+        a { color: #000 }
+    }
+    .project-image {
+        border-radius: 2%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-size: 0;
+
+        img {
+            width: 100%;
+        }
+    }    
+    .project-description {
+        color: #666;
+        width: fit-content;
+        font-size: 80% !important;
+        margin-top: 0;
+    }
+}
