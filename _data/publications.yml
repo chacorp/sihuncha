@@ -7,10 +7,19 @@
 #     - Sihun
 #     - Kwanggyoon
 #     - Junyong
+
+- id: mpapv
+  title: "One-shot Motion Personalization for Audio-driven Portrait Video Generation"
+  venue: (In submission)
+  description: "Learning dynamic motion style from a single video for audio driven video generation in one-shot manner"
+  image: mpapv.png
+  paper: ""
+  authors:
+
   
 - id: maafa
   title: "Mesh Agnostic Audio-Driven 3D Facial Animation"
-  venue: Under review
+  venue: KCGS 2025
   description: "An end-to-end method for animating a 3D face mesh with arbitrary shape and triangulation from a given speech audio."
   image: maafa.png
   paper: "https://drive.google.com/file/d/1APW-u0quVrkUX9Fh0kHhjZGvjoVXTqth/view?usp=drive_link"
