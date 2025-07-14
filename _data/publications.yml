@@ -18,7 +18,7 @@
   
 - id: maafa
   title: "Mesh Agnostic Audio-Driven 3D Facial Animation"
-  venue: KCGS 2025
+  venue: KCGS 2025 (Best Paper Award)
   description: "An end-to-end method for animating a 3D face mesh with arbitrary shape and triangulation from a given speech audio."
   image: maafa.png
   paper: "https://drive.google.com/file/d/1APW-u0quVrkUX9Fh0kHhjZGvjoVXTqth/view?usp=drive_link"
