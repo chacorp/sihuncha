@@ -21,8 +21,8 @@
   venue: KCGS 2025 (Best Paper Award)
   description: "An end-to-end method for animating a 3D face mesh with arbitrary shape and triangulation from a given speech audio."
   image: maafa.png
-  paper_(kor): "https://drive.google.com/file/d/1SbIUfRRdxHrPOzI_qSvTZfpWwV4Pz9mw/view?usp=sharing"
-  paper_(eng): "https://drive.google.com/file/d/1APW-u0quVrkUX9Fh0kHhjZGvjoVXTqth/view?usp=sharing"  
+  paper_kor: "https://drive.google.com/file/d/1SbIUfRRdxHrPOzI_qSvTZfpWwV4Pz9mw/view?usp=sharing"
+  paper_eng: "https://drive.google.com/file/d/1APW-u0quVrkUX9Fh0kHhjZGvjoVXTqth/view?usp=sharing"  
   authors:
     - Kwanggyoon
     - Sihun
