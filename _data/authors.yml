@@ -68,9 +68,6 @@ Seokhyeon:
   first_name: Seokhyeon
   last_name: Hong
   website: https://seokhyeonhong.github.io/
-Soojin:
-  first_name: Soojin
-  last_name: Choi
 Chaelin:
   first_name: Chaelin
   last_name: Kim
@@ -79,7 +76,11 @@ Junghyun:
   first_name: Junghyun
   last_name: Nam
   website: https://vml.kaist.ac.kr/main/people/person/176
-
+Youngseo:
+  first_name: Youngseo
+  last_name: Kim
+  website: https://youngseo0526.github.io/publications
+  
 YoungJun:
   first_name: YoungJun
   last_name: Choi
