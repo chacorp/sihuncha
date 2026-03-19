@@ -38,7 +38,7 @@
   description: "A generalizable deepfake detector that probes generator-internal audio-visual signals accessed via DDIM inversion to expose these cues"
   project_page: "https://youngseo0526.github.io/X-AVDT/"
   github: "youngseo0526/X-AVDT"
-  image:
+  image: xavdt.png
   authors:
     - Youngseo
     - Kwan
