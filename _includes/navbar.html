@@ -1,0 +1,14 @@
+<nav class="navbar is-fixed-top site-navbar" role="navigation" aria-label="main navigation">
+  <div class="container is-max-desktop">
+    <div class="navbar-menu is-active">
+      <div class="navbar-start">
+        <a class="navbar-item{% if page.url == '/' %} is-active{% endif %}" href="{{ '/' | relative_url }}">About</a>
+        <a class="navbar-item{% if page.url == '/cv.html' %} is-active{% endif %}" href="{{ '/cv.html' | relative_url }}">CV</a>
+        <a class="navbar-item{% if page.url == '/publications.html' %} is-active{% endif %}" href="{{ '/publications.html' | relative_url }}">Publication</a>
+        <a class="navbar-item{% if page.url == '/posts.html' or page.url contains '/posts/' %} is-active{% endif %}" href="{{ '/posts.html' | relative_url }}">Post</a>
+        <a class="navbar-item{% if page.url == '/work.html' or page.url contains '/work/' %} is-active{% endif %}" href="{{ '/work.html' | relative_url }}">Work</a>
+        <a class="navbar-item{% if page.url == '/memo.html' or page.url contains '/memo/' %} is-active{% endif %}" href="{{ '/memo.html' | relative_url }}">Memo</a>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,57 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{ site.name }} - Memo</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="./css/fontawesome.all.min.css" rel="stylesheet">
+  <link href="./css/bulma.min.css" rel="stylesheet">
+  <link href="./css/index.css" rel="stylesheet">
+  <link href="./css/navbar.css" rel="stylesheet">
+
+  <script defer src="./js/fontawesome.all.min.js"></script>
+</head>
+
+<body class="has-navbar-fixed-top">
+
+  {% include navbar.html %}
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Memo</h2>
+      <div class="content">
+        <ul class="post-list">
+          {% assign memos = site.memo | sort: 'date' | reverse %}
+          {% for memo in memos %}
+          <li>
+            <a href="{{ memo.url | relative_url }}">{{ memo.title }}</a>
+            <span class="post-list-date">{{ memo.date | date: "%Y-%m-%d" }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content footer-links has-text-centered">
+        <a href="mailto:{{ site.email }}">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a class="external-link" href="https://github.com/{{ site.github_username }}">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

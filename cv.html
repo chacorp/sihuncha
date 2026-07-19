@@ -1,0 +1,58 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{ site.title }} - CV</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+
+  <link href="./css/bulma.min.css" rel="stylesheet">
+  <link href="./css/fontawesome.all.min.css" rel="stylesheet">
+  <link href="./css/navbar.css" rel="stylesheet">
+  <script defer src="./js/fontawesome.all.min.js"></script>
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    .cv-frame {
+      width: 100%;
+      height: calc(100vh - 3.25rem);
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+
+<body class="has-navbar-fixed-top">
+
+  {% include navbar.html %}
+
+  <object class="cv-frame" data="{{ '/assets/cv.pdf' | relative_url }}" type="application/pdf">
+    <p>
+      PDF를 표시할 수 없습니다.
+      <a href="{{ '/cv-print.html' | relative_url }}">HTML 버전을 확인하세요</a>,
+      또는 <a href="{{ '/assets/cv.pdf' | relative_url }}">PDF를 직접 다운로드</a>하세요.
+    </p>
+  </object>
+
+</body>
+
+</html>

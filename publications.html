@@ -1,0 +1,150 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{ site.name }} - Publications</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="./css/fontawesome.all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
+  <link href="./css/bulma.min.css" rel="stylesheet">
+  <link href="./css/index.css" rel="stylesheet">
+  <link href="./css/navbar.css" rel="stylesheet">
+
+  <script defer src="./js/fontawesome.all.min.js"></script>
+</head>
+
+<body class="has-navbar-fixed-top">
+
+  {% include navbar.html %}
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <h2 class="title is-3">Publications</h2>
+
+      {% for publication in site.data.publications %}
+      <div class="publication-block columns">
+
+        <div class="column is-2">
+          <div class="publication-image">
+            <img alt="{{ publication.title }}" src="./images/{{ publication.image }}" width="300"/>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              {% if publication.project_page %}
+              <a href="{{ publication.project_page }}">{{ publication.title }}</a>
+              {% else %}
+              <a href="{{ publication.paper }}">{{ publication.title }}</a>
+              {% endif %}
+            </h3>
+
+            <div class="publication-authors">
+              {% assign co_value = publication.co | plus: 0 %}
+              {% assign count = 0 %}
+              {% for author_id in publication.authors %}
+                {% assign author = site.data.authors[author_id] %}
+                <span class="author-block {% if author.is_me %}author-me{% endif %}">
+                  {% if count < co_value %}*{% endif %}
+                  {% if author.is_me %}
+                    {{ author.first_name }} {{ author.middle_name }} {{ author.last_name }}{% if forloop.last == false %},{% endif %}
+                  {% else %}
+                    <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name }}</a>{% if forloop.last == false %},{% endif %}
+                  {% endif %}
+                </span>
+                {% assign count = count | plus: 1 %}
+              {% endfor %}
+
+              {% if publication.etc %}
+                {{ publication.etc }}
+              {% endif %}
+            </div>
+
+            <div class="publication-venue">
+              {% if publication.journal %}
+              <span>{{ publication.venue }}, {{ publication.journal }}</span>
+              {% else %}
+              <span>{{ publication.venue }}</span>
+              {% endif %}
+
+              {% for award in publication.awards %}
+                <span class="publication-venue-emph">{{ award }}<span>
+              {% endfor %}
+            </div>
+
+            <p class="publication-description">{{ publication.description }}</p>
+
+            <!-- Publication Links. -->
+            <div class="publication-links buttons">
+              {% if publication.paper and publication.arxiv %}
+              <div class="publication-link-split">
+                <a class="external-link button is-small" href="{{ publication.paper }}">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
+                </a>
+                <a class="external-link button is-small" href="https://arxiv.org/abs/{{ publication.arxiv }}">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>arXiv</span>
+                </a>
+              </div>
+              {% elsif publication.paper %}
+              <a class="external-link button is-small is-rounded" href="{{ publication.paper }}">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>Paper</span>
+              </a>
+              {% elsif publication.arxiv %}
+              <a class="external-link button is-small is-rounded" href="https://arxiv.org/abs/{{ publication.arxiv }}">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              {% endif %}
+              {% if publication.project_page %}
+              <a class="external-link button is-small is-rounded" href="{{ publication.project_page }}">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Project Page</span>
+              </a>
+              {% endif %}
+              {% if publication.github %}
+              <a class="external-link button is-small is-rounded" href="https://github.com/{{ publication.github }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+              {% endif %}
+            </div>
+            <!--/ Publication Links. -->
+
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content footer-links has-text-centered">
+        <a href="mailto:{{ site.email }}">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a class="external-link" href="https://github.com/{{ site.github_username }}">
+          <i class="fab fa-github"></i>
+        </a>
+        <a class="external-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+---
+---
+
+.site-navbar .navbar-item {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #333;
+  border-bottom: 2px solid transparent;
+}
+
+.site-navbar .navbar-item:hover,
+.site-navbar .navbar-item.is-active {
+  color: #000;
+  background-color: transparent;
+  border-bottom-color: #000;
+}

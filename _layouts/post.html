@@ -1,0 +1,50 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{ page.title }} - {{ site.name }}</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="{{ '/css/fontawesome.all.min.css' | relative_url }}" rel="stylesheet">
+  <link href="{{ '/css/bulma.min.css' | relative_url }}" rel="stylesheet">
+  <link href="{{ '/css/index.css' | relative_url }}" rel="stylesheet">
+  <link href="{{ '/css/navbar.css' | relative_url }}" rel="stylesheet">
+
+  <script defer src="{{ '/js/fontawesome.all.min.js' | relative_url }}"></script>
+</head>
+
+<body class="has-navbar-fixed-top">
+
+  {% include navbar.html %}
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <a class="post-back-link" href="{{ '/posts.html' | relative_url }}"><i class="fas fa-arrow-left"></i> Back to Posts</a>
+      <h1 class="title">{{ page.title }}</h1>
+      <p class="post-date">{{ page.date | date: "%Y-%m-%d" }}</p>
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content footer-links has-text-centered">
+        <a href="mailto:{{ site.email }}">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a class="external-link" href="https://github.com/{{ site.github_username }}">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

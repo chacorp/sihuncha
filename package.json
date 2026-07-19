@@ -1,0 +1,11 @@
+{
+  "name": "sihuncha-site",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "render-pdf": "node scripts/render-cv-pdf.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}

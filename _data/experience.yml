@@ -1,0 +1,26 @@
+- company: CLO Virtual Fashion Inc.
+  description: >- 
+      Machine Learning Engineer
+  topic: Garment generation and manipulation.
+  dates: "Apr 2026 - Present"
+  location: Seoul, South Korea
+
+- company: Visual Media Lab, KAIST
+  description: >- 
+      Research Assistant.
+  topic: Topics of texture generation, 3D facial animation.
+  dates: "Jan 2021 - Present"
+  location: DaeJeon, South Korea
+
+- company: Flawless AI
+  description: >- 
+      Research Scientist Intern
+  topic: Audio to Mouth Synthesis using Diffusion Model.
+  dates: "Sep 2024 - Dec 2024"
+  location: Santa Monica, US
+
+# - company: Mandatory Military Service
+#   description: >- 
+#       ROK Army sergeant, honorable discharge
+#   dates: "June 2015 - Mar 2017"
+#   location: Uljin, South Korea
