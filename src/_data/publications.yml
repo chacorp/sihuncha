@@ -55,7 +55,7 @@
 
 - id: nfs
   title: "Neural Face Skinning for Mesh-agnostic Facial Expression Cloning"
-  venue: EG 2025 (CGF)
+  venue: Eurographics 2025
   description: "A method that enables direct retargeting between two facial meshes with different shapes and mesh structures."
   project_page: "https://chacorp.github.io/nfs-page/"
   github: "chacorp/NFS"
@@ -69,7 +69,7 @@
   
 - id: localpatch
   title: "Deep Learning-Based Facial Retargeting Using Local Patches"
-  venue: EG 2025 (CGF)
+  venue: Eurographics 2025
   description: "Retargeting facial expression from a source human performance video to a target stylized 3D character using local patches."
   image: localpatch.png
   paper: "https://onlinelibrary.wiley.com/doi/10.1111/cgf.15263"
