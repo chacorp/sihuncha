@@ -26,10 +26,11 @@ description: >-
   I am a Ph.D. student at [Visual Media Lab](https://vml.kaist.ac.kr/), [KAIST](https://www.kaist.ac.kr/en/), advised by Prof. [Junyong Noh](https://vml.kaist.ac.kr/main/people/person/1). 
   I studied Fine Arts as a Bachelor at [Korea National University of Arts](https://www.karts.ac.kr/en/main.do).
   
-
-  'How to create and manipulate 3D content intuitively?' is my overall question. 
-  My current research interest lies on generating and editing 3D mesh.
-
+  I envision techniques for real-world applications and bring these ideas to daily life through implementation in various ways.  
+  My research has primarily focused on facial animation. During my Ph.D., 
+  I came to recognize that the stability and reliability of models are closely tied to the representations they learn. 
+  Recently, I have been exploring directions centered on representation.
+  
 
 baseurl: "/sihuncha" # the subpath of your site, e.g. /blog
 url: "https://chacorp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
